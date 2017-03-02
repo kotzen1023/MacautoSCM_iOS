@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7A6F181E67CB4500C18C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F171E67CB4500C18C9A /* main.m */; };
+		5E7A6F1B1E67CB4500C18C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1A1E67CB4500C18C9A /* AppDelegate.m */; };
+		5E7A6F1E1E67CB4500C18C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1D1E67CB4500C18C9A /* ViewController.m */; };
+		5E7A6F211E67CB4500C18C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1F1E67CB4500C18C9A /* Main.storyboard */; };
+		5E7A6F231E67CB4500C18C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A6F221E67CB4500C18C9A /* Assets.xcassets */; };
+		5E7A6F261E67CB4500C18C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */; };
+		5E7A6F311E67CB4500C18C9A /* Macauto_SCMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F301E67CB4500C18C9A /* Macauto_SCMTests.m */; };
+		5E7A6F3C1E67CB4500C18C9A /* Macauto_SCMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E7A6F2D1E67CB4500C18C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7A6F0B1E67CB4500C18C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7A6F121E67CB4500C18C9A;
+			remoteInfo = Macauto_SCM;
+		};
+		5E7A6F381E67CB4500C18C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7A6F0B1E67CB4500C18C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7A6F121E67CB4500C18C9A;
+			remoteInfo = Macauto_SCM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E7A6F131E67CB4500C18C9A /* Macauto_SCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macauto_SCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7A6F171E67CB4500C18C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E7A6F191E67CB4500C18C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E7A6F1A1E67CB4500C18C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E7A6F1C1E67CB4500C18C9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E7A6F1D1E67CB4500C18C9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E7A6F201E67CB4500C18C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E7A6F221E67CB4500C18C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E7A6F251E67CB4500C18C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E7A6F271E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7A6F2C1E67CB4500C18C9A /* Macauto_SCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Macauto_SCMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7A6F301E67CB4500C18C9A /* Macauto_SCMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macauto_SCMTests.m; sourceTree = "<group>"; };
+		5E7A6F321E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7A6F371E67CB4500C18C9A /* Macauto_SCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Macauto_SCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macauto_SCMUITests.m; sourceTree = "<group>"; };
+		5E7A6F3D1E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E7A6F101E67CB4500C18C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A6F291E67CB4500C18C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A6F341E67CB4500C18C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7A6F0A1E67CB4500C18C9A = {
+			isa = PBXGroup;
+			children = (
+				5E7A6F151E67CB4500C18C9A /* Macauto_SCM */,
+				5E7A6F2F1E67CB4500C18C9A /* Macauto_SCMTests */,
+				5E7A6F3A1E67CB4500C18C9A /* Macauto_SCMUITests */,
+				5E7A6F141E67CB4500C18C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E7A6F141E67CB4500C18C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6F131E67CB4500C18C9A /* Macauto_SCM.app */,
+				5E7A6F2C1E67CB4500C18C9A /* Macauto_SCMTests.xctest */,
+				5E7A6F371E67CB4500C18C9A /* Macauto_SCMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7A6F151E67CB4500C18C9A /* Macauto_SCM */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6F191E67CB4500C18C9A /* AppDelegate.h */,
+				5E7A6F1A1E67CB4500C18C9A /* AppDelegate.m */,
+				5E7A6F1C1E67CB4500C18C9A /* ViewController.h */,
+				5E7A6F1D1E67CB4500C18C9A /* ViewController.m */,
+				5E7A6F1F1E67CB4500C18C9A /* Main.storyboard */,
+				5E7A6F221E67CB4500C18C9A /* Assets.xcassets */,
+				5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */,
+				5E7A6F271E67CB4500C18C9A /* Info.plist */,
+				5E7A6F161E67CB4500C18C9A /* Supporting Files */,
+			);
+			path = Macauto_SCM;
+			sourceTree = "<group>";
+		};
+		5E7A6F161E67CB4500C18C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6F171E67CB4500C18C9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E7A6F2F1E67CB4500C18C9A /* Macauto_SCMTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6F301E67CB4500C18C9A /* Macauto_SCMTests.m */,
+				5E7A6F321E67CB4500C18C9A /* Info.plist */,
+			);
+			path = Macauto_SCMTests;
+			sourceTree = "<group>";
+		};
+		5E7A6F3A1E67CB4500C18C9A /* Macauto_SCMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */,
+				5E7A6F3D1E67CB4500C18C9A /* Info.plist */,
+			);
+			path = Macauto_SCMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E7A6F121E67CB4500C18C9A /* Macauto_SCM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7A6F401E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCM" */;
+			buildPhases = (
+				5E7A6F0F1E67CB4500C18C9A /* Sources */,
+				5E7A6F101E67CB4500C18C9A /* Frameworks */,
+				5E7A6F111E67CB4500C18C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Macauto_SCM;
+			productName = Macauto_SCM;
+			productReference = 5E7A6F131E67CB4500C18C9A /* Macauto_SCM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E7A6F2B1E67CB4500C18C9A /* Macauto_SCMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7A6F431E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMTests" */;
+			buildPhases = (
+				5E7A6F281E67CB4500C18C9A /* Sources */,
+				5E7A6F291E67CB4500C18C9A /* Frameworks */,
+				5E7A6F2A1E67CB4500C18C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7A6F2E1E67CB4500C18C9A /* PBXTargetDependency */,
+			);
+			name = Macauto_SCMTests;
+			productName = Macauto_SCMTests;
+			productReference = 5E7A6F2C1E67CB4500C18C9A /* Macauto_SCMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E7A6F361E67CB4500C18C9A /* Macauto_SCMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7A6F461E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMUITests" */;
+			buildPhases = (
+				5E7A6F331E67CB4500C18C9A /* Sources */,
+				5E7A6F341E67CB4500C18C9A /* Frameworks */,
+				5E7A6F351E67CB4500C18C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7A6F391E67CB4500C18C9A /* PBXTargetDependency */,
+			);
+			name = Macauto_SCMUITests;
+			productName = Macauto_SCMUITests;
+			productReference = 5E7A6F371E67CB4500C18C9A /* Macauto_SCMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E7A6F0B1E67CB4500C18C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RichieShih;
+				TargetAttributes = {
+					5E7A6F121E67CB4500C18C9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25YRF78357;
+						ProvisioningStyle = Automatic;
+					};
+					5E7A6F2B1E67CB4500C18C9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25YRF78357;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E7A6F121E67CB4500C18C9A;
+					};
+					5E7A6F361E67CB4500C18C9A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25YRF78357;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E7A6F121E67CB4500C18C9A;
+					};
+				};
+			};
+			buildConfigurationList = 5E7A6F0E1E67CB4500C18C9A /* Build configuration list for PBXProject "Macauto_SCM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E7A6F0A1E67CB4500C18C9A;
+			productRefGroup = 5E7A6F141E67CB4500C18C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E7A6F121E67CB4500C18C9A /* Macauto_SCM */,
+				5E7A6F2B1E67CB4500C18C9A /* Macauto_SCMTests */,
+				5E7A6F361E67CB4500C18C9A /* Macauto_SCMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E7A6F111E67CB4500C18C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7A6F261E67CB4500C18C9A /* LaunchScreen.storyboard in Resources */,
+				5E7A6F231E67CB4500C18C9A /* Assets.xcassets in Resources */,
+				5E7A6F211E67CB4500C18C9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A6F2A1E67CB4500C18C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A6F351E67CB4500C18C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E7A6F0F1E67CB4500C18C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7A6F1E1E67CB4500C18C9A /* ViewController.m in Sources */,
+				5E7A6F1B1E67CB4500C18C9A /* AppDelegate.m in Sources */,
+				5E7A6F181E67CB4500C18C9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A6F281E67CB4500C18C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7A6F311E67CB4500C18C9A /* Macauto_SCMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A6F331E67CB4500C18C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7A6F3C1E67CB4500C18C9A /* Macauto_SCMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E7A6F2E1E67CB4500C18C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7A6F121E67CB4500C18C9A /* Macauto_SCM */;
+			targetProxy = 5E7A6F2D1E67CB4500C18C9A /* PBXContainerItemProxy */;
+		};
+		5E7A6F391E67CB4500C18C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7A6F121E67CB4500C18C9A /* Macauto_SCM */;
+			targetProxy = 5E7A6F381E67CB4500C18C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E7A6F1F1E67CB4500C18C9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7A6F201E67CB4500C18C9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7A6F251E67CB4500C18C9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E7A6F3E1E67CB4500C18C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E7A6F3F1E67CB4500C18C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E7A6F411E67CB4500C18C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = Macauto_SCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E7A6F421E67CB4500C18C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = Macauto_SCM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E7A6F441E67CB4500C18C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = Macauto_SCMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macauto_SCM.app/Macauto_SCM";
+			};
+			name = Debug;
+		};
+		5E7A6F451E67CB4500C18C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = Macauto_SCMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macauto_SCM.app/Macauto_SCM";
+			};
+			name = Release;
+		};
+		5E7A6F471E67CB4500C18C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = Macauto_SCMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Macauto_SCM;
+			};
+			name = Debug;
+		};
+		5E7A6F481E67CB4500C18C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = Macauto_SCMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Macauto_SCM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E7A6F0E1E67CB4500C18C9A /* Build configuration list for PBXProject "Macauto_SCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7A6F3E1E67CB4500C18C9A /* Debug */,
+				5E7A6F3F1E67CB4500C18C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7A6F401E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7A6F411E67CB4500C18C9A /* Debug */,
+				5E7A6F421E67CB4500C18C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E7A6F431E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7A6F441E67CB4500C18C9A /* Debug */,
+				5E7A6F451E67CB4500C18C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E7A6F461E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7A6F471E67CB4500C18C9A /* Debug */,
+				5E7A6F481E67CB4500C18C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E7A6F0B1E67CB4500C18C9A /* Project object */;
+}
