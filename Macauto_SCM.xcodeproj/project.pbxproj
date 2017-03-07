@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD83324F156B7FE3E1A50FC /* libPods-Macauto_SCMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8893AF1A83FCC6B2E64C7C /* libPods-Macauto_SCMUITests.a */; };
 		5E7A6F181E67CB4500C18C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F171E67CB4500C18C9A /* main.m */; };
 		5E7A6F1B1E67CB4500C18C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1A1E67CB4500C18C9A /* AppDelegate.m */; };
 		5E7A6F1E1E67CB4500C18C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1D1E67CB4500C18C9A /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		5E7A6F261E67CB4500C18C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */; };
 		5E7A6F311E67CB4500C18C9A /* Macauto_SCMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F301E67CB4500C18C9A /* Macauto_SCMTests.m */; };
 		5E7A6F3C1E67CB4500C18C9A /* Macauto_SCMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */; };
+		5E7A6F4D1E67CC9C00C18C9A /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F491E67CC9C00C18C9A /* FirebaseAnalytics.framework */; };
+		5E7A6F4E1E67CC9C00C18C9A /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F4A1E67CC9C00C18C9A /* FirebaseCore.framework */; };
+		5E7A6F4F1E67CC9C00C18C9A /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F4B1E67CC9C00C18C9A /* FirebaseInstanceID.framework */; };
+		5E7A6F501E67CC9C00C18C9A /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F4C1E67CC9C00C18C9A /* GoogleToolboxForMac.framework */; };
+		5E7A6F531E67CDA100C18C9A /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F511E67CDA100C18C9A /* FirebaseMessaging.framework */; };
+		5E7A6F541E67CDA100C18C9A /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F521E67CDA100C18C9A /* Protobuf.framework */; };
+		5E8B61C81E67EE2200464ABA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E8B61C71E67EE2200464ABA /* GoogleService-Info.plist */; };
+		E4D0C20E4CDDF1E89A543023 /* libPods-Macauto_SCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D724A1C5BDA51E62F84585 /* libPods-Macauto_SCM.a */; };
+		F4B90A9384339B019D3624AA /* libPods-Macauto_SCMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A8B6E8BB195D5F26E85E3F /* libPods-Macauto_SCMTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39070A9EDB01AA7847E93B60 /* Pods-Macauto_SCMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCMUITests/Pods-Macauto_SCMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50D724A1C5BDA51E62F84585 /* libPods-Macauto_SCM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Macauto_SCM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A8B6E8BB195D5F26E85E3F /* libPods-Macauto_SCMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Macauto_SCMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A6F131E67CB4500C18C9A /* Macauto_SCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macauto_SCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A6F171E67CB4500C18C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E7A6F191E67CB4500C18C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,21 @@
 		5E7A6F371E67CB4500C18C9A /* Macauto_SCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Macauto_SCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macauto_SCMUITests.m; sourceTree = "<group>"; };
 		5E7A6F3D1E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7A6F491E67CC9C00C18C9A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		5E7A6F4A1E67CC9C00C18C9A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		5E7A6F4B1E67CC9C00C18C9A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		5E7A6F4C1E67CC9C00C18C9A /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		5E7A6F511E67CDA100C18C9A /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		5E7A6F521E67CDA100C18C9A /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		5E7A6F551E67CE7000C18C9A /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		5E8B61C71E67EE2200464ABA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E8B61C91E67EF4C00464ABA /* Macauto_SCM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Macauto_SCM.entitlements; sourceTree = "<group>"; };
+		6F06E1457DCB865048F21031 /* Pods-Macauto_SCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCM/Pods-Macauto_SCM.release.xcconfig"; sourceTree = "<group>"; };
+		74BCD315ADAFDE59AA57291A /* Pods-Macauto_SCMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCMUITests/Pods-Macauto_SCMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79AAA253EC4ADCFAB59170BC /* Pods-Macauto_SCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCM/Pods-Macauto_SCM.debug.xcconfig"; sourceTree = "<group>"; };
+		97DB24B86ADDB53B1F34710E /* Pods-Macauto_SCMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCMTests/Pods-Macauto_SCMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB8893AF1A83FCC6B2E64C7C /* libPods-Macauto_SCMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Macauto_SCMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB2E314FBAC62ACD6005186 /* Pods-Macauto_SCMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCMTests/Pods-Macauto_SCMTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7A6F4E1E67CC9C00C18C9A /* FirebaseCore.framework in Frameworks */,
+				5E7A6F531E67CDA100C18C9A /* FirebaseMessaging.framework in Frameworks */,
+				5E7A6F501E67CC9C00C18C9A /* GoogleToolboxForMac.framework in Frameworks */,
+				5E7A6F4F1E67CC9C00C18C9A /* FirebaseInstanceID.framework in Frameworks */,
+				5E7A6F4D1E67CC9C00C18C9A /* FirebaseAnalytics.framework in Frameworks */,
+				5E7A6F541E67CDA100C18C9A /* Protobuf.framework in Frameworks */,
+				E4D0C20E4CDDF1E89A543023 /* libPods-Macauto_SCM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B90A9384339B019D3624AA /* libPods-Macauto_SCMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD83324F156B7FE3E1A50FC /* libPods-Macauto_SCMUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +122,14 @@
 				5E7A6F2F1E67CB4500C18C9A /* Macauto_SCMTests */,
 				5E7A6F3A1E67CB4500C18C9A /* Macauto_SCMUITests */,
 				5E7A6F141E67CB4500C18C9A /* Products */,
+				5E7A6F511E67CDA100C18C9A /* FirebaseMessaging.framework */,
+				5E7A6F521E67CDA100C18C9A /* Protobuf.framework */,
+				5E7A6F491E67CC9C00C18C9A /* FirebaseAnalytics.framework */,
+				5E7A6F4A1E67CC9C00C18C9A /* FirebaseCore.framework */,
+				5E7A6F4B1E67CC9C00C18C9A /* FirebaseInstanceID.framework */,
+				5E7A6F4C1E67CC9C00C18C9A /* GoogleToolboxForMac.framework */,
+				B0171BD20D2E71BAE76730AA /* Pods */,
+				CDFCC0C441DBA50EAB4F7784 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +146,8 @@
 		5E7A6F151E67CB4500C18C9A /* Macauto_SCM */ = {
 			isa = PBXGroup;
 			children = (
+				5E8B61C91E67EF4C00464ABA /* Macauto_SCM.entitlements */,
+				5E7A6F551E67CE7000C18C9A /* Firebase.h */,
 				5E7A6F191E67CB4500C18C9A /* AppDelegate.h */,
 				5E7A6F1A1E67CB4500C18C9A /* AppDelegate.m */,
 				5E7A6F1C1E67CB4500C18C9A /* ViewController.h */,
@@ -109,6 +156,7 @@
 				5E7A6F221E67CB4500C18C9A /* Assets.xcassets */,
 				5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */,
 				5E7A6F271E67CB4500C18C9A /* Info.plist */,
+				5E8B61C71E67EE2200464ABA /* GoogleService-Info.plist */,
 				5E7A6F161E67CB4500C18C9A /* Supporting Files */,
 			);
 			path = Macauto_SCM;
@@ -140,6 +188,29 @@
 			path = Macauto_SCMUITests;
 			sourceTree = "<group>";
 		};
+		B0171BD20D2E71BAE76730AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79AAA253EC4ADCFAB59170BC /* Pods-Macauto_SCM.debug.xcconfig */,
+				6F06E1457DCB865048F21031 /* Pods-Macauto_SCM.release.xcconfig */,
+				97DB24B86ADDB53B1F34710E /* Pods-Macauto_SCMTests.debug.xcconfig */,
+				FEB2E314FBAC62ACD6005186 /* Pods-Macauto_SCMTests.release.xcconfig */,
+				74BCD315ADAFDE59AA57291A /* Pods-Macauto_SCMUITests.debug.xcconfig */,
+				39070A9EDB01AA7847E93B60 /* Pods-Macauto_SCMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDFCC0C441DBA50EAB4F7784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D724A1C5BDA51E62F84585 /* libPods-Macauto_SCM.a */,
+				54A8B6E8BB195D5F26E85E3F /* libPods-Macauto_SCMTests.a */,
+				BB8893AF1A83FCC6B2E64C7C /* libPods-Macauto_SCMUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7A6F401E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCM" */;
 			buildPhases = (
+				2B14D408A334A0F0B6D46F6F /* [CP] Check Pods Manifest.lock */,
 				5E7A6F0F1E67CB4500C18C9A /* Sources */,
 				5E7A6F101E67CB4500C18C9A /* Frameworks */,
 				5E7A6F111E67CB4500C18C9A /* Resources */,
+				5213790361B04D0CB41FCEF4 /* [CP] Embed Pods Frameworks */,
+				081C6E0B5F7082ABF5786418 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7A6F431E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMTests" */;
 			buildPhases = (
+				50567665072F74819D7837FD /* [CP] Check Pods Manifest.lock */,
 				5E7A6F281E67CB4500C18C9A /* Sources */,
 				5E7A6F291E67CB4500C18C9A /* Frameworks */,
 				5E7A6F2A1E67CB4500C18C9A /* Resources */,
+				B66D4074816C11D84608A797 /* [CP] Embed Pods Frameworks */,
+				2ED85828BD8715DFC1AA70A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7A6F461E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMUITests" */;
 			buildPhases = (
+				A5F030BB10AAA1F58770AD38 /* [CP] Check Pods Manifest.lock */,
 				5E7A6F331E67CB4500C18C9A /* Sources */,
 				5E7A6F341E67CB4500C18C9A /* Frameworks */,
 				5E7A6F351E67CB4500C18C9A /* Resources */,
+				C199AFFE6E869068197DE019 /* [CP] Embed Pods Frameworks */,
+				4F1D092054B24A2EF3EDD8FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +289,14 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 25YRF78357;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					5E7A6F2B1E67CB4500C18C9A = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -250,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7A6F261E67CB4500C18C9A /* LaunchScreen.storyboard in Resources */,
+				5E8B61C81E67EE2200464ABA /* GoogleService-Info.plist in Resources */,
 				5E7A6F231E67CB4500C18C9A /* Assets.xcassets in Resources */,
 				5E7A6F211E67CB4500C18C9A /* Main.storyboard in Resources */,
 			);
@@ -270,6 +359,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		081C6E0B5F7082ABF5786418 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macauto_SCM/Pods-Macauto_SCM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B14D408A334A0F0B6D46F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED85828BD8715DFC1AA70A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macauto_SCMTests/Pods-Macauto_SCMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1D092054B24A2EF3EDD8FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macauto_SCMUITests/Pods-Macauto_SCMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50567665072F74819D7837FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5213790361B04D0CB41FCEF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macauto_SCM/Pods-Macauto_SCM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F030BB10AAA1F58770AD38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B66D4074816C11D84608A797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macauto_SCMTests/Pods-Macauto_SCMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C199AFFE6E869068197DE019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Macauto_SCMUITests/Pods-Macauto_SCMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E7A6F0F1E67CB4500C18C9A /* Sources */ = {
@@ -425,30 +652,45 @@
 		};
 		5E7A6F411E67CB4500C18C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AAA253EC4ADCFAB59170BC /* Pods-Macauto_SCM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Macauto_SCM/Macauto_SCM.entitlements;
 				DEVELOPMENT_TEAM = 25YRF78357;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Macauto_SCM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCM";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macauto.MacautoSCM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		5E7A6F421E67CB4500C18C9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F06E1457DCB865048F21031 /* Pods-Macauto_SCM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Macauto_SCM/Macauto_SCM.entitlements;
 				DEVELOPMENT_TEAM = 25YRF78357;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Macauto_SCM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.macauto.Macauto-SCM";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macauto.MacautoSCM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		5E7A6F441E67CB4500C18C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97DB24B86ADDB53B1F34710E /* Pods-Macauto_SCMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 25YRF78357;
@@ -462,6 +704,7 @@
 		};
 		5E7A6F451E67CB4500C18C9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB2E314FBAC62ACD6005186 /* Pods-Macauto_SCMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 25YRF78357;
@@ -475,6 +718,7 @@
 		};
 		5E7A6F471E67CB4500C18C9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BCD315ADAFDE59AA57291A /* Pods-Macauto_SCMUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 25YRF78357;
 				INFOPLIST_FILE = Macauto_SCMUITests/Info.plist;
@@ -487,6 +731,7 @@
 		};
 		5E7A6F481E67CB4500C18C9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39070A9EDB01AA7847E93B60 /* Pods-Macauto_SCMUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 25YRF78357;
 				INFOPLIST_FILE = Macauto_SCMUITests/Info.plist;
@@ -516,6 +761,7 @@
 				5E7A6F421E67CB4500C18C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E7A6F431E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +770,7 @@
 				5E7A6F451E67CB4500C18C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E7A6F461E67CB4500C18C9A /* Build configuration list for PBXNativeTarget "Macauto_SCMUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +779,7 @@
 				5E7A6F481E67CB4500C18C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
