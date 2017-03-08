@@ -157,6 +157,41 @@
     
     completionHandler(UIBackgroundFetchResultNewData);
     
+    //local notification
+    /*UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center requestAuthorizationWithOptions:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert)
+                          completionHandler:^(BOOL granted, NSError * _Nullable error) {
+                              if (!error) {
+                                  NSLog(@"request authorization succeeded!");
+                                  //[self showAlert];
+                              }
+                          }];
+    
+    
+    UNMutableNotificationContent *content = [[UNMutableNotificationContent alloc] init];
+    content.title = [NSString localizedUserNotificationStringForKey:@"Elon said:"
+                                                          arguments:nil];
+    content.body = [NSString localizedUserNotificationStringForKey:@"Hello Tom！Get up, let's play with Jerry!"
+                                                         arguments:nil];
+    content.sound = [UNNotificationSound defaultSound];
+    
+    // 4. update application icon badge number
+    content.badge = [NSNumber numberWithInteger:([UIApplication sharedApplication].applicationIconBadgeNumber + 1)];
+    // Deliver the notification in five seconds.
+    UNTimeIntervalNotificationTrigger *trigger = [UNTimeIntervalNotificationTrigger
+                                                  triggerWithTimeInterval:1.f
+                                                  repeats:NO];
+    UNNotificationRequest *request = [UNNotificationRequest requestWithIdentifier:@"FiveSecond"
+                                                                          content:content
+                                                                          trigger:trigger];
+    /// 3. schedule localNotification
+    //UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+    [center addNotificationRequest:request withCompletionHandler:^(NSError * _Nullable error) {
+        if (!error) {
+            NSLog(@"add NotificationRequest succeeded!");
+        }
+    }];
+    */
     
 }
 

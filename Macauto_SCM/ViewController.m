@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "Firebase.h"
 
 @interface ViewController ()
 
