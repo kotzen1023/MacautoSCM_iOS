@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Macauto_SCM
+
+  Created by SUNUP on 2017/5/8.
+  Copyright © 2017年 RichieShih. All rights reserved.
+*/
+
+"MACAUTO_SCM" = "Macauto SCM";
+
+"COMMON_OK" = "OK";
+"COMMON_CANCEL" = "Cancel";
+"COMMON_BACK" = "Back";
+
+"LOGIN_ID" = "ID";
+"LOGIN_PASSWORD" = "Password";
+"LOGIN_LOGIN_BTN" = "Login";
+"LOGIN_CLEAR_BTN" = "Clear";
+"LOGIN_FAIL" = "Login fail. Please check your account and password.";
+"LOGIN_PROGRESS" = "Login...";
+"LOGIN_ID_EMPTY" = "Account can't be empty.";
+"SERVER_ERROR" = "Server error.";
+"COMPLETE_ERROR" = "Some error in your Connection. Please try again.";
+"DATA_LOADING" = "Loading...";
+
+"MSG_TITLE" = "Title";
+"MSG_TIME" = "Time";
+
+"SETTING_LOGOUT" = "Logout";
+"SETTING_LOGOUT_ALERT_TITLE" = "Warning!";
+"SETTING_LOGOUT_ALERT_MSG" = "You won't receive msg after logout. Are you sure?";
+
+"DATE_TODAY" = "Today";

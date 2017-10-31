@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5DD83324F156B7FE3E1A50FC /* libPods-Macauto_SCMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8893AF1A83FCC6B2E64C7C /* libPods-Macauto_SCMUITests.a */; };
+		5E006E551EC0554D002E3E98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E006E531EC0554D002E3E98 /* Localizable.strings */; };
+		5E06E9B31EBAC3F400ED7A22 /* OpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06E9B21EBAC3F400ED7A22 /* OpeningViewController.m */; };
+		5E06E9B61EBADF1700ED7A22 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E06E9B51EBADF1700ED7A22 /* LoginViewController.m */; };
+		5E5122BF1EB9D70600AE2D1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E5122BE1EB9D70600AE2D1B /* GoogleService-Info.plist */; };
 		5E7A6F181E67CB4500C18C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F171E67CB4500C18C9A /* main.m */; };
 		5E7A6F1B1E67CB4500C18C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1A1E67CB4500C18C9A /* AppDelegate.m */; };
 		5E7A6F1E1E67CB4500C18C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F1D1E67CB4500C18C9A /* ViewController.m */; };
@@ -16,13 +20,11 @@
 		5E7A6F261E67CB4500C18C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */; };
 		5E7A6F311E67CB4500C18C9A /* Macauto_SCMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F301E67CB4500C18C9A /* Macauto_SCMTests.m */; };
 		5E7A6F3C1E67CB4500C18C9A /* Macauto_SCMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */; };
-		5E7A6F4D1E67CC9C00C18C9A /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F491E67CC9C00C18C9A /* FirebaseAnalytics.framework */; };
-		5E7A6F4E1E67CC9C00C18C9A /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F4A1E67CC9C00C18C9A /* FirebaseCore.framework */; };
-		5E7A6F4F1E67CC9C00C18C9A /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F4B1E67CC9C00C18C9A /* FirebaseInstanceID.framework */; };
-		5E7A6F501E67CC9C00C18C9A /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F4C1E67CC9C00C18C9A /* GoogleToolboxForMac.framework */; };
-		5E7A6F531E67CDA100C18C9A /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F511E67CDA100C18C9A /* FirebaseMessaging.framework */; };
-		5E7A6F541E67CDA100C18C9A /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7A6F521E67CDA100C18C9A /* Protobuf.framework */; };
-		5E8B61C81E67EE2200464ABA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E8B61C71E67EE2200464ABA /* GoogleService-Info.plist */; };
+		5E7F1AF41F82357600D553F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E7F1AF21F82357600D553F5 /* InfoPlist.strings */; };
+		5EEA44211EBC69350068C97F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA44201EBC69350068C97F /* TabBarViewController.m */; };
+		5EEA442A1EBC73F00068C97F /* ThemeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA44291EBC73F00068C97F /* ThemeColor.m */; };
+		5EFBC1331E6FEA7D006CC7BF /* NotifyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFBC1321E6FEA7D006CC7BF /* NotifyItem.m */; };
+		5EFE6EAF1EBFF57A002DB3B3 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE6EAE1EBFF57A002DB3B3 /* SettingViewController.m */; };
 		E4D0C20E4CDDF1E89A543023 /* libPods-Macauto_SCM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D724A1C5BDA51E62F84585 /* libPods-Macauto_SCM.a */; };
 		F4B90A9384339B019D3624AA /* libPods-Macauto_SCMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A8B6E8BB195D5F26E85E3F /* libPods-Macauto_SCMTests.a */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,16 @@
 		39070A9EDB01AA7847E93B60 /* Pods-Macauto_SCMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCMUITests/Pods-Macauto_SCMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		50D724A1C5BDA51E62F84585 /* libPods-Macauto_SCM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Macauto_SCM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A8B6E8BB195D5F26E85E3F /* libPods-Macauto_SCMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Macauto_SCMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E006E511EC05450002E3E98 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		5E006E521EC05450002E3E98 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5E006E541EC0554D002E3E98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5E006E561EC05554002E3E98 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5E06E9B11EBAC3F400ED7A22 /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningViewController.h; sourceTree = "<group>"; };
+		5E06E9B21EBAC3F400ED7A22 /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningViewController.m; sourceTree = "<group>"; };
+		5E06E9B41EBADF1700ED7A22 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5E06E9B51EBADF1700ED7A22 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5E34DACC1E70F41300978C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		5E5122BE1EB9D70600AE2D1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E7A6F131E67CB4500C18C9A /* Macauto_SCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macauto_SCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A6F171E67CB4500C18C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E7A6F191E67CB4500C18C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,22 +69,24 @@
 		5E7A6F201E67CB4500C18C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E7A6F221E67CB4500C18C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E7A6F251E67CB4500C18C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5E7A6F271E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7A6F2C1E67CB4500C18C9A /* Macauto_SCMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Macauto_SCMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A6F301E67CB4500C18C9A /* Macauto_SCMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macauto_SCMTests.m; sourceTree = "<group>"; };
 		5E7A6F321E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7A6F371E67CB4500C18C9A /* Macauto_SCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Macauto_SCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7A6F3B1E67CB4500C18C9A /* Macauto_SCMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macauto_SCMUITests.m; sourceTree = "<group>"; };
 		5E7A6F3D1E67CB4500C18C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E7A6F491E67CC9C00C18C9A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		5E7A6F4A1E67CC9C00C18C9A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		5E7A6F4B1E67CC9C00C18C9A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		5E7A6F4C1E67CC9C00C18C9A /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
-		5E7A6F511E67CDA100C18C9A /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
-		5E7A6F521E67CDA100C18C9A /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
 		5E7A6F551E67CE7000C18C9A /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
-		5E8B61C71E67EE2200464ABA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E7F1AF31F82357600D553F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E7F1AF51F82358000D553F5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		5E8B61C91E67EF4C00464ABA /* Macauto_SCM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Macauto_SCM.entitlements; sourceTree = "<group>"; };
+		5EEA441F1EBC69350068C97F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		5EEA44201EBC69350068C97F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		5EEA44281EBC73F00068C97F /* ThemeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeColor.h; sourceTree = "<group>"; };
+		5EEA44291EBC73F00068C97F /* ThemeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeColor.m; sourceTree = "<group>"; };
+		5EFBC1311E6FEA7D006CC7BF /* NotifyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyItem.h; sourceTree = "<group>"; };
+		5EFBC1321E6FEA7D006CC7BF /* NotifyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyItem.m; sourceTree = "<group>"; };
+		5EFE6EAD1EBFF57A002DB3B3 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		5EFE6EAE1EBFF57A002DB3B3 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		6F06E1457DCB865048F21031 /* Pods-Macauto_SCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCM/Pods-Macauto_SCM.release.xcconfig"; sourceTree = "<group>"; };
 		74BCD315ADAFDE59AA57291A /* Pods-Macauto_SCMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCMUITests/Pods-Macauto_SCMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		79AAA253EC4ADCFAB59170BC /* Pods-Macauto_SCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Macauto_SCM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Macauto_SCM/Pods-Macauto_SCM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,12 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7A6F4E1E67CC9C00C18C9A /* FirebaseCore.framework in Frameworks */,
-				5E7A6F531E67CDA100C18C9A /* FirebaseMessaging.framework in Frameworks */,
-				5E7A6F501E67CC9C00C18C9A /* GoogleToolboxForMac.framework in Frameworks */,
-				5E7A6F4F1E67CC9C00C18C9A /* FirebaseInstanceID.framework in Frameworks */,
-				5E7A6F4D1E67CC9C00C18C9A /* FirebaseAnalytics.framework in Frameworks */,
-				5E7A6F541E67CDA100C18C9A /* Protobuf.framework in Frameworks */,
 				E4D0C20E4CDDF1E89A543023 /* libPods-Macauto_SCM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,12 +130,6 @@
 				5E7A6F2F1E67CB4500C18C9A /* Macauto_SCMTests */,
 				5E7A6F3A1E67CB4500C18C9A /* Macauto_SCMUITests */,
 				5E7A6F141E67CB4500C18C9A /* Products */,
-				5E7A6F511E67CDA100C18C9A /* FirebaseMessaging.framework */,
-				5E7A6F521E67CDA100C18C9A /* Protobuf.framework */,
-				5E7A6F491E67CC9C00C18C9A /* FirebaseAnalytics.framework */,
-				5E7A6F4A1E67CC9C00C18C9A /* FirebaseCore.framework */,
-				5E7A6F4B1E67CC9C00C18C9A /* FirebaseInstanceID.framework */,
-				5E7A6F4C1E67CC9C00C18C9A /* GoogleToolboxForMac.framework */,
 				B0171BD20D2E71BAE76730AA /* Pods */,
 				CDFCC0C441DBA50EAB4F7784 /* Frameworks */,
 			);
@@ -146,6 +148,7 @@
 		5E7A6F151E67CB4500C18C9A /* Macauto_SCM */ = {
 			isa = PBXGroup;
 			children = (
+				5EFBC12C1E6FE9AA006CC7BF /* Data */,
 				5E8B61C91E67EF4C00464ABA /* Macauto_SCM.entitlements */,
 				5E7A6F551E67CE7000C18C9A /* Firebase.h */,
 				5E7A6F191E67CB4500C18C9A /* AppDelegate.h */,
@@ -155,9 +158,17 @@
 				5E7A6F1F1E67CB4500C18C9A /* Main.storyboard */,
 				5E7A6F221E67CB4500C18C9A /* Assets.xcassets */,
 				5E7A6F241E67CB4500C18C9A /* LaunchScreen.storyboard */,
-				5E7A6F271E67CB4500C18C9A /* Info.plist */,
-				5E8B61C71E67EE2200464ABA /* GoogleService-Info.plist */,
+				5E34DACA1E70F40A00978C3E /* Info.plist */,
+				5E5122BE1EB9D70600AE2D1B /* GoogleService-Info.plist */,
 				5E7A6F161E67CB4500C18C9A /* Supporting Files */,
+				5E06E9B11EBAC3F400ED7A22 /* OpeningViewController.h */,
+				5E06E9B21EBAC3F400ED7A22 /* OpeningViewController.m */,
+				5E06E9B41EBADF1700ED7A22 /* LoginViewController.h */,
+				5E06E9B51EBADF1700ED7A22 /* LoginViewController.m */,
+				5EEA441F1EBC69350068C97F /* TabBarViewController.h */,
+				5EEA44201EBC69350068C97F /* TabBarViewController.m */,
+				5EFE6EAD1EBFF57A002DB3B3 /* SettingViewController.h */,
+				5EFE6EAE1EBFF57A002DB3B3 /* SettingViewController.m */,
 			);
 			path = Macauto_SCM;
 			sourceTree = "<group>";
@@ -166,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				5E7A6F171E67CB4500C18C9A /* main.m */,
+				5E006E531EC0554D002E3E98 /* Localizable.strings */,
+				5E7F1AF21F82357600D553F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,6 +199,17 @@
 				5E7A6F3D1E67CB4500C18C9A /* Info.plist */,
 			);
 			path = Macauto_SCMUITests;
+			sourceTree = "<group>";
+		};
+		5EFBC12C1E6FE9AA006CC7BF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5EFBC1311E6FEA7D006CC7BF /* NotifyItem.h */,
+				5EFBC1321E6FEA7D006CC7BF /* NotifyItem.m */,
+				5EEA44281EBC73F00068C97F /* ThemeColor.h */,
+				5EEA44291EBC73F00068C97F /* ThemeColor.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		B0171BD20D2E71BAE76730AA /* Pods */ = {
@@ -282,12 +306,12 @@
 		5E7A6F0B1E67CB4500C18C9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = RichieShih;
 				TargetAttributes = {
 					5E7A6F121E67CB4500C18C9A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 25YRF78357;
+						DevelopmentTeam = HUK3AFB2A2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -319,6 +343,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 5E7A6F0A1E67CB4500C18C9A;
 			productRefGroup = 5E7A6F141E67CB4500C18C9A /* Products */;
@@ -337,8 +362,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E006E551EC0554D002E3E98 /* Localizable.strings in Resources */,
+				5E7F1AF41F82357600D553F5 /* InfoPlist.strings in Resources */,
 				5E7A6F261E67CB4500C18C9A /* LaunchScreen.storyboard in Resources */,
-				5E8B61C81E67EE2200464ABA /* GoogleService-Info.plist in Resources */,
+				5E5122BF1EB9D70600AE2D1B /* GoogleService-Info.plist in Resources */,
 				5E7A6F231E67CB4500C18C9A /* Assets.xcassets in Resources */,
 				5E7A6F211E67CB4500C18C9A /* Main.storyboard in Resources */,
 			);
@@ -504,8 +531,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7A6F1E1E67CB4500C18C9A /* ViewController.m in Sources */,
+				5EEA442A1EBC73F00068C97F /* ThemeColor.m in Sources */,
 				5E7A6F1B1E67CB4500C18C9A /* AppDelegate.m in Sources */,
+				5EEA44211EBC69350068C97F /* TabBarViewController.m in Sources */,
+				5E06E9B61EBADF1700ED7A22 /* LoginViewController.m in Sources */,
+				5EFE6EAF1EBFF57A002DB3B3 /* SettingViewController.m in Sources */,
 				5E7A6F181E67CB4500C18C9A /* main.m in Sources */,
+				5E06E9B31EBAC3F400ED7A22 /* OpeningViewController.m in Sources */,
+				5EFBC1331E6FEA7D006CC7BF /* NotifyItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,10 +574,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5E006E531EC0554D002E3E98 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E006E541EC0554D002E3E98 /* en */,
+				5E006E561EC05554002E3E98 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5E34DACA1E70F40A00978C3E /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E34DACC1E70F41300978C3E /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		5E7A6F1F1E67CB4500C18C9A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5E7A6F201E67CB4500C18C9A /* Base */,
+				5E006E511EC05450002E3E98 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -553,8 +604,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E7A6F251E67CB4500C18C9A /* Base */,
+				5E006E521EC05450002E3E98 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5E7F1AF21F82357600D553F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7F1AF31F82357600D553F5 /* en */,
+				5E7F1AF51F82358000D553F5 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -564,12 +625,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -577,7 +641,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -600,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -612,12 +680,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -625,7 +696,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -642,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -656,15 +731,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Macauto_SCM/Macauto_SCM.entitlements;
-				DEVELOPMENT_TEAM = 25YRF78357;
+				DEVELOPMENT_TEAM = HUK3AFB2A2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Macauto_SCM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.macauto.MacautoSCM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macauto.MacautoAppSCM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -675,15 +750,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Macauto_SCM/Macauto_SCM.entitlements;
-				DEVELOPMENT_TEAM = 25YRF78357;
+				DEVELOPMENT_TEAM = HUK3AFB2A2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Macauto_SCM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.macauto.MacautoSCM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macauto.MacautoAppSCM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Macauto_SCM
+
+  Created by SUNUP on 2017/10/2.
+  Copyright © 2017年 RichieShih. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Macauto SCM";
+"CFBundleName" = "Macauto SCM";

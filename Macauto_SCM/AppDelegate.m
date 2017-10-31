@@ -11,7 +11,7 @@
 
 
 @interface AppDelegate ()
-
+@property long unread_sp_count;
 @end
 
 @implementation AppDelegate
@@ -41,7 +41,7 @@
         // For iOS 10 display notification (sent via APNS)
         [UNUserNotificationCenter currentNotificationCenter].delegate = self;
         // For iOS 10 data message (sent via FCM)
-        [FIRMessaging messaging].remoteMessageDelegate = self;
+        [FIRMessaging messaging].delegate = self;
 #endif
     }
     
@@ -85,13 +85,30 @@
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     NSLog(@"applicationDidEnterBackground");
-    is_actived = false;
+    //is_actived = false;
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    
+    NSString *unread_badge = [defaults objectForKey:@"Badge"];
+    _unread_sp_count = [unread_badge intValue];
+    
+    NSLog(@"Current badge = %ld", _unread_sp_count);
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = _unread_sp_count;
 }
 
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     
+    NSLog(@"applicationWillEnterForeground");
+    
+    _unread_sp_count = [UIApplication sharedApplication].applicationIconBadgeNumber;
+    
+    NSLog(@"Current badge = %ld", _unread_sp_count);
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"TestNotification" object:self userInfo:nil];
 }
 
 
@@ -99,8 +116,8 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
     //clear badge
-    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
-    is_actived = true;
+    //[UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    //is_actived = true;
 }
 
 
@@ -113,8 +130,8 @@
     // Store the deviceToken in the current Installation and save it to Parse.
     [[FIRInstanceID instanceID] setAPNSToken:deviceToken type:FIRInstanceIDAPNSTokenTypeSandbox];
     
-    [[FIRMessaging messaging] subscribeToTopic:@"/topics/test"];
-    NSLog(@"Subscribed to test topic");
+    //[[FIRMessaging messaging] subscribeToTopic:@"/topics/test"];
+    //NSLog(@"Subscribed to test topic");
 }
 
 
@@ -131,7 +148,7 @@
     NSString *body  = [userInfo objectForKey:@"body"];
     //NSInteger badge = [[userInfo objectForKey:@"badge"] integerValue];
     
-    NSLog(@"current badge = %ld", [UIApplication sharedApplication].applicationIconBadgeNumber);
+    NSLog(@"current badge = %ld", (long)[UIApplication sharedApplication].applicationIconBadgeNumber);
     
     if (title != nil) {
         NSLog(@"title = %@", title);
@@ -151,9 +168,9 @@
     // Pring full message.
     NSLog(@"%@", userInfo);
     
-    if (!is_actived) {
-        [UIApplication sharedApplication].applicationIconBadgeNumber++;
-    }
+    //if (!is_actived) {
+    //    [UIApplication sharedApplication].applicationIconBadgeNumber++;
+    //}
     
     completionHandler(UIBackgroundFetchResultNewData);
     
@@ -192,6 +209,15 @@
         }
     }];
     */
+    //send to viewcontroller
+    
+    if (title != nil && body != nil) {
+    
+        //NSDictionary *notifyDetail = @{@"title": title,
+        //                             @"body": body};
+    
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"TestNotification" object:self userInfo:nil];
+    }
     
 }
 

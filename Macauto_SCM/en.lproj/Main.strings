@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "time"; ObjectID = "3rW-LX-BZj"; */
+"3rW-LX-BZj.text" = "time";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "HKf-cR-GeV"; */
+"HKf-cR-GeV.text" = "title";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "IZU-wV-eCJ"; */
+"IZU-wV-eCJ.normalTitle" = "Logout";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "JCp-hf-Q7g"; */
+"JCp-hf-Q7g.normalTitle" = "Confirm";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "OyN-2m-LaE"; */
+"OyN-2m-LaE.normalTitle" = "Clear";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "bIP-cn-ltV"; */
+"bIP-cn-ltV.text" = "Login";
+
+/* Class = "UILabel"; text = "Macauto SCM"; ObjectID = "oU8-5a-bVi"; */
+"oU8-5a-bVi.text" = "Macauto SCM";
